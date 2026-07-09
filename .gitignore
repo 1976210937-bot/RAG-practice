@@ -1,0 +1,54 @@
+# Python 编译产物
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 数据库文件
+*.db
+*.sqlite3
+
+# 向量数据库
+chroma_db/
+
+# 上传文件
+uploads/
+
+# 环境变量
+.env
+
+# macOS 系统文件
+.DS_Store
+
+# Node.js 依赖
+node_modules/
+.pnpm-store/
+
+# 前端构建产物
+dist/
+build/
+.next/
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+.trae/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 测试文件
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 操作系统
+Thumbs.db
+ehthumbs.db
